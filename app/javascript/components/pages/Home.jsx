@@ -84,6 +84,41 @@ const Home = () => (
                 </div>
             </section>
 
+            <section className="about-us">
+                <div className="about-us-content mx-14 py-5">
+                    <h3 className="text-2xl font-bold my-2 text-center">About Us</h3>
+                    <p>
+                        WNB.rb is a virtual community for women and non-binary Ruby developers. It
+                        was founded in 2021 by{' '}
+                        <a
+                            href="https://www.emilysamp.dev/"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Emily Samp
+                        </a>{' '}
+                        and{' '}
+                        <a href="https://jemma.dev/" target="_blank" rel="noopener noreferrer">
+                            Jemma Issroff
+                        </a>{' '}
+                        after they noticed the lack of gender diversity among speakers at Ruby
+                        conferences and meetups. WNB.rb began with the goal of supporting a more
+                        diverse group of people in making an impact on the Ruby community.
+                        <br />
+                        <br />
+                        Since 2021, we have grown into a community of hundreds of technologists,
+                        with initiatives including a monthly meetup, book club, interview study
+                        group, conference proposal review group, and more!
+                        <br />
+                        <br />
+                        While Jemma and Emily still co-organize WNB.rb, much of the work that keeps
+                        the group going is done by our community members, who live all over the
+                        world and are passionate about making the Ruby community a safer, more
+                        welcoming place.
+                    </p>
+                </div>
+            </section>
+
             <section className="podcast">
                 <PodcastTile podcasts={podcasts} />
             </section>

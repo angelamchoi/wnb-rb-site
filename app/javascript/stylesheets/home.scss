@@ -17,6 +17,24 @@
     @apply max-w-[37rem] mt-20 md:mt-0 md:w-[40rem];
 }
 
+.about-us {
+    @apply flex 
+    flex-row
+    flex-wrap
+    items-center
+    w-full
+    max-w-[50rem]
+    flex-col
+    justify-center
+    mx-80
+    mr-auto
+    my-96
+    p-5
+    text-center
+    items-center
+    border-dotted border-4 border-wnbrb-pink-default;
+}
+
 .podcast {
     background: url('../../assets/images/waveform.svg');
     background-repeat: repeat-x;
